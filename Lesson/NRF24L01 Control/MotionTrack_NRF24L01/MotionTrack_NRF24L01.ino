@@ -59,7 +59,7 @@ float roll, pitch, yaw = 0;
 
 byte readbyte(void);
 
-Nrf24l mNrf24L01 = Nrf24l(10, 9);
+Nrf24l mNrf24L01 = Nrf24l(4, 7);
 bool ConnectStatus = false;
 ST_PROTOCOL SendData;
 

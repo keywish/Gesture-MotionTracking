@@ -3,7 +3,7 @@
 #include <SPI.h>
 #include "nRF24L01.h"
 #include "MirfHardwareSpiDriver.h"
-Nrf24l Mirf = Nrf24l(10, 9);
+Nrf24l Mirf = Nrf24l(4, 7);
 byte value[8] = {0xAA, 0x01, 0x01, 0x06, 0x23, 0x00, 0x2B, 0x55};
 uint8_t  Addr = 0x01;
 

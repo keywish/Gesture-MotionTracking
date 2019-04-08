@@ -2,7 +2,7 @@
 #include <SPI.h>
 #include "nRF24L01.h"
 
-Nrf24l Mirf = Nrf24l(A0, A1);
+Nrf24l Mirf = Nrf24l(4, 7);
 String SmartCarName = "hummer-bot";
 byte value[12];
 
